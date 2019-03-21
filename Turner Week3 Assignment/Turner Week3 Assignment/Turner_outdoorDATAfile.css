@@ -1,0 +1,59 @@
+input.invalid {
+	background-color: #FF9;
+	border: 2px red inset;
+}
+
+label.invalid {
+	color: #F00;
+	font-weight: bold;
+}
+
+div.invalid {         
+	color: #F00;
+	font-weight: bold;
+}
+
+
+legend	{float:left; 
+		color:#0000ff;
+		font-style:italic; 
+		font-size:small;
+		}
+		
+fieldset   {border: 1px solid #ffa07a;
+            border-right: 1px solid #ffa07a;
+            border-bottom: 1px solid #ffa07a;
+			margin-bottom:1px;
+			line-height:150%;
+            }
+			
+.emphasize {font-weight:800;
+             font-size:12pt;
+           }
+
+body  {margin-left:120px;
+       margin-right:120px;
+       font-family:Verdana, Arial, sans-serif;	
+       font-size:10pt;	   
+	  }		
+	  
+h1 {font-size:50pt; 
+     margin-top:0px;
+	 position:relative;
+	 top:30px;}
+	 
+
+
+img#logo  {float:left; 
+           margin-right:25px; 
+		   margin-bottom:5px; 
+		   margin-top:10px;
+		   border:1px;}
+		   
+p {color:#000000;}
+
+textarea  {border: 1px solid #ffa07a;}
+		
+hr   {border-color:#ffa07a;
+    color:#ffa07a;
+    border:1px solid; }

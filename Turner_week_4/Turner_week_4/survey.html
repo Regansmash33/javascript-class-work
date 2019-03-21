@@ -1,0 +1,88 @@
+<!-- Joseph Turner -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Rock Star Form</title>
+
+<link rel="stylesheet" type="text/css" href="RockStar.css" />
+
+<script type="text/javascript" src="rockSurvey.js" ></script>
+
+</head>
+
+<body>
+
+<nav>
+
+<a id="nextPgLink" >Next</a>
+
+
+</nav>
+
+<h1 class="mainHeadline">Rock Star Spectacular Form</h1>
+
+<div id="mainPic">
+
+<img src="The_FabsSm.jpg" width="220" height="220" />
+
+</div>
+
+<div id="form">
+
+   <form name="RSform" id="surveyForm" action="">
+   
+	  &nbsp;First name: <input name="firstName" id="firstName" type="text" /><br />
+
+	  Time zone: <select id="tmZone" name="tmZone">
+	   <option value="ET">Eastern Time Zone</option>
+	   <option value="CT">Central Time Zone</option>
+	   <option value="MT">Mountain Time Zone</option>
+	   <option value="PT">Pacific Time Zone</option>
+	  </select><br />
+      Gender: &nbsp;<input type="radio" id="genderM" name="gender" value="Male">Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" id="genderF" name="gender" value="Female">Female<br />
+      <p>
+      Age Group:<br>
+	  <label for="ageGroup1">12 - 19</label>
+	  <input type="radio" id="ageGroup1" name="age" value="1" />
+	  <br />
+	  <label for="ageGroup2">20 - 29</label>
+	  <input type="radio" id="ageGroup2" name="age" value="2" />
+	  <br />
+	  <label for="ageGroup3">30 - 39</label>
+	  <input type="radio" id="ageGroup3" name="age" value="3" />
+	  <br />
+	  <label for="ageGroup4">40 - 49</label>
+	  <input type="radio" id="ageGroup4" name="age" value="4" />
+	  <br />
+	  <label for="ageGroup5">50 - 59</label>
+	  <input type="radio" id="ageGroup5" name="age" value="5" />
+	  <br />
+	  <label for="ageGroup6">60+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	  <input type="radio" id="ageGroup6" name="age" value="6" />
+	  <br />	  
+      <p style="text-align: center">
+	   <button onclick = 'saveData()'> Submit</button>
+      </p>
+	  
+	 </form>
+
+</div>
+
+
+<footer id="mainPgFooter">
+
+</footer>
+
+</body>
+
+</html>
+
+
+
+

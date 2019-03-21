@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Philadelphia</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/black-tie/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" href="Slides-SlidesJS-3/examples/standard/css/example.css">
+    <link rel="stylesheet" href="Slides-SlidesJS-3/examples/standard/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mbPlayer/css/miniplayer.css"/>
+    <link rel="stylesheet" href="philadelphiaDATA_FILE.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+    <script src="mbPlayer/inc/jquery.mb.miniPlayer.js"></script>
+    <script src="mbPlayer/inc/jquery.jplayer.min.js"></script>
+    <script src="philly.js"></script>
+
+
+<!-- Joseph Turner; 12/16/17; 1280 x 720 resolution used -->
+<!-- table data is from http://www.bls.gov/ro3/cesqphl.htm -->
+
+<!-- MP3 is from http://www.bensound.com/ (royaly free)   -->
+<!-- To get the OGG sound format, convert MP3 to OGG at:  http://www.online-convert.com/    -->
+<!-- AUDIO  -->
+
+
+
+
+</head>
+<!-- resize the window to set resolution of 1280 x 720 on load -->
+<body onload=" window.resizeTo(1280,720)">
+
+<blockquote>
+
+<div id="leftCol">
+
+	<h2>Philadelphia Metropolitan Area</h2>
+	
+	<!-- table should be striped using jQuery code -->
+
+	<table class="table-info">
+		<caption>
+          <span class="tableTitle">Table 1. Employees on nonfarm payrolls by industry supersector, Philadelphia metropolitan area and its components, not seasonally adjusted (numbers in thousands)</span>
+         </caption>
+		<thead>
+          <tr>
+            <th rowspan="2">Area</th>
+            <th rowspan="2">Feb<br />
+              2013</th>
+            <th rowspan="2">Dec<br />
+              2013</th>
+            <th rowspan="2">Jan<br />
+              2014</th>
+            <th rowspan="2">Feb<br />
+              2014</th>
+            <th colspan="2">Feb 2013 to<br />
+              Feb 2014</th>
+          </tr>
+          <tr>
+            <th>Net<br />
+              change</th>
+            <th>Percent<br />
+              change</th>
+          </tr>
+        </thead>
+		<tbody>
+          <tr>
+            <th>Philadelphia City, Pa.</th>
+            <td colspan="6">&nbsp;</td>
+          </tr>
+          <tr>
+            <th>Total nonfarm</th>
+            <td>665.4</td>
+            <td>673.4</td>
+            <td>662.2</td>
+            <td> 668.7</td>
+            <td> 3.3</td>
+            <td> 0.5</td>
+          </tr>
+          <tr>
+            <th>Mining, logging, and construction</th>
+            <td>9.8</td>
+            <td>10.2</td>
+            <td>9.8</td>
+            <td> 10.1</td>
+            <td> 0.3</td>
+            <td> 3.1</td>
+          </tr>
+          <tr>
+            <th>Manufacturing</th>
+            <td>21.7</td>
+            <td>21.7</td>
+            <td>21.6</td>
+            <td> 21.5</td>
+            <td> -0.2</td>
+            <td> -0.9</td>
+          </tr>
+          <tr>
+            <th>Trade, transportation, and utilities</th>
+            <td>87.8</td>
+            <td>93.0</td>
+            <td>89.8</td>
+            <td> 89.5</td>
+            <td> 1.7</td>
+            <td> 1.9</td>
+          </tr>
+          <tr>
+            <th>Information</th>
+            <td>11.7</td>
+            <td>11.5</td>
+            <td>11.4</td>
+            <td> 11.4</td>
+            <td> -0.3</td>
+            <td> -2.6</td>
+          </tr>
+          <tr>
+            <th>Financial activities</th>
+            <td>40.9</td>
+            <td>40.9</td>
+            <td>41.1</td>
+            <td> 41.8</td>
+            <td> 0.9</td>
+            <td> 2.2</td>
+          </tr>
+          <tr>
+            <th>Professional and business services</th>
+            <td>86.1</td>
+            <td>86.7</td>
+            <td>85.6</td>
+            <td> 85.0</td>
+            <td> -1.1</td>
+            <td> -1.3</td>
+          </tr>
+          <tr>
+            <th>Education and health services</th>
+            <td>213.5</td>
+            <td>212.6</td>
+            <td>209.7</td>
+            <td> 214.3</td>
+            <td> 0.8</td>
+            <td> 0.4</td>
+          </tr>
+          <tr>
+            <th>Leisure and hospitality</th>
+            <td>61.2</td>
+            <td>65.3</td>
+            <td>63.8</td>
+            <td> 64.6</td>
+            <td> 3.4</td>
+            <td> 5.6</td>
+          </tr>
+          <tr>
+            <th>Other services</th>
+            <td>26.9</td>
+            <td>27.6</td>
+            <td>27.1</td>
+            <td> 27.2</td>
+            <td> 0.3</td>
+            <td> 1.1</td>
+          </tr>
+          <tr>
+            <th>Government</th>
+            <td>105.8</td>
+            <td>103.9</td>
+            <td>102.3</td>
+            <td> 103.3</td>
+            <td> -2.5</td>
+            <td> -2.4</td>
+          </tr>
+		 <tbody>
+	</table>
+
+    <br />
+	
+	<h3 id="formHeadline">Visitation Appointment</h3>
+	
+	<form action="mailto:RGPatterson@peirce.edu?Appointment" method="post" id="visit_form">
+	
+	<table class="table-in">
+		<tr>		
+			<td class="alignRight">
+				Name: 
+			</td>
+			<td class="alignLeft">
+				<input id="name" type="text" size="42"><br />
+			</td>		
+		</tr>
+		<tr>
+			<td class="alignRight">
+				Please enter your industry:
+			</td>		
+			<td class="alignLeft">
+                <input id="searchField" size="42">
+				<!-- Add code to create an auto-complete user entry for the 11 industries that are shown in the table; use jQuery -->
+
+				
+				<br />
+			</td>			
+		</tr>	
+	</table>
+	
+	<br />
+	<input type="submit" value="Send" id="submitBtn" /><input type="reset" value="Clear" id="resetBtn" /> 
+	<br />
+	
+	<!-- Add code to provide a link to show/hide the preferred visiting period input fields using jQuery -->
+        <button id="toggle">Show/Hide Visiting Period</button>
+
+	<div id="visitDiv">
+	     <!-- Add code to provide a two-up calendar using jQuery for user's preferred visiting period -->
+		<h2>Select your preferred visiting period:</h2>
+        <label for="from">From</label> <input type="text" id="from" name="from">
+        <label for="to">to</label> <input type="text" id="to" name="to">
+	</div>
+	<br />
+
+	</form>
+	
+	<br />
+
+</div>
+
+<div id="rightCol">
+
+    <br />
+    <br />
+    <br />
+
+	<!-- Add code below to provide slideshow with jQuery -->
+	<div id="slides">
+        <img src="images/BenFranklinBridge.jpg">
+        <img src="images/ChineseArch.jpg">
+        <img src="images/PhillySkyline.jpg">
+        <img src="images/PhillySkylineWriver.jpg">
+        <img src="images/SouthStreet.jpg">
+        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+	</div>
+
+	<br />
+	<br />
+	
+	<!--  Add code to provide an audio player to play the provided sound files using jQuery -->
+	<div>
+        <a class="audio {ogg:'mbPlayer/bensound_happiness.ogg'}" href="mbPlayer/bensound_happiness.mp3">Happiness</a>
+	</div>
+	
+	<br />
+	<br />
+	
+	<!-- Add code to include sortable tabbing for business incentives and economic inclusion -->
+	<h3>Business Incentives and Economic Inclusion</h3>
+	
+		<div id="tabs">
+		<ul>
+            <li><a href="#tabs-1">InStore Program</a></li>
+            <li><a href="#tabs-2">Business loans</a></li>
+            <li><a href="#tabs-3">Economic Inclusion</a></li>
+            <li><a href="#tabs-4">Safecam Program</a></li>
+            <li><a href="#tabs-5">Entrepreneurs</a></li>
+		</ul>
+		<div id="tabs-1">
+			<p>The <b>"InStore Program"</b> is a forgiveable loan program that helps eligible retail, food, and creative for-profit and non-profit businesses purchase equipment and materials associated with establishing a new location or expanding at an existing one.
+			</p>
+		</div>
+		<div id="tabs-2">
+			<p><b>"Business loans"</b> are available from an assortment of sources, ranging from local groups and partners, to city, state and federally backed loans.
+			</p>
+		</div>
+		<div id="tabs-3">
+			<p><b>"Economic Inclusion"</b> involves the    development and implementation of a robust effort to include Minority, Woman, and Disabled owned business enterprises in City Contracts, advancing economic opportunities for these businesses.
+			</p>
+		</div>
+		<div id="tabs-4">
+			<p>The <b>"SafeCam Program"</b> assists commercial property owners and business owners to install surveillance cameras, making their location safer for shoppers and the community.
+			</p>
+		</div>
+		<div id="tabs-5">
+			<p>Entrepreneurs seeking startup funds should look beyond the traditional lenders, such as the bank, family or friends.
+			</p>
+		</div>
+	</div>
+
+</div>
+
+<div id="footer">
+    <p class="copyright">Copyright RGPatterson; &copy; 2014</p> <br />
+		<!--  Add code to display "Peirce College" beneath the copyright, using jQuery -->
+		 
+
+</div>
+
+</blockquote>
+
+    <!--  Add code to provide a modal dialog using jQuery  -->
+
+	<div id="welcome">
+		Welcome to Philadelphia, the cradle of liberty! Bring your business to the City of Brotherly Love. We can help you get started!
+	</div>
+
+
+</body>
+
+</html>

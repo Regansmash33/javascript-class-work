@@ -1,0 +1,63 @@
+<!-- Joseph  Turner -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Kite Listing</title>
+
+<link rel="stylesheet" type="text/css" href="kiteList.css" />
+
+</head>
+
+<body>
+<script src = 'kite.js'></script>
+
+<blockquote>
+
+<br /><br /><br />
+
+<h2>Kim's Kite Shop: Shopper's Selection</h2>
+
+<p>Models in Stock: Alpha+, Dream On, Puma, Kratos, Magellan, Mighty Bug 1.0, Hypnotist, Speedfoil 2X, Symphony 1.8, Yukon</p>
+
+    <div id="keyInfo">
+        <p> To use the accessKey; please press the A key to select the add node option, and the R key to select the remove node option</p>
+        <p><strong>Note:</strong> The shortcut varies from different browsers:</p>
+        <ul>
+            <li>IE, Chrome, Safari [ALT] + <em>accesskey</em></li>
+            <li>Opera prior version 15: [SHIFT]+[ESC] + <em>accesskey</em></li>
+            <li>Firefox: [ALT]+[SHIFT] + <em>accesskey</em></li>
+        </ul>
+    </div>
+
+<form id="kiteForm">
+  <p><input type ="text" id="kiteModel" name="kiteModel" placeholder="Input kite model here." size="30"></p>
+    <p>
+        <label><input type="radio" id="add" accesskey="A" name="nodeAction">Add Node</label>
+        <label><input type="radio" id="delete" accesskey="R" name="nodeAction">Delete Node</label>
+    </p>
+    Item Number: <select id="itemCount"></select>
+    <input type="submit" value="Submit">
+</form>
+
+<div id="displayKites">
+    <ol id="myList">
+
+    </ol>
+</div>
+
+<div id="timeStamp">
+    <br /><br />
+    <p id="dateDue">Invoice Due Date</p>
+</div>
+
+</blockquote>
+
+</body>
+
+</html>

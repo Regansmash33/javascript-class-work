@@ -1,0 +1,46 @@
+
+<!-- Joseph Turner - 11/12/17 -->
+
+<!DOCTYPE html>
+
+<head>
+
+    <script src="action_scripts.js"></script>
+
+    <title>Walking and Changing Light Using Timer</title>
+
+    <meta charset="utf-8" />
+
+    <style>
+
+        div {text-align:center;}
+
+    </style>
+
+</head>
+
+<body>
+<form name="f1" id="btnForm">
+    <div align="center" id="buttonLightDiv">
+
+        <input type="button" value="Start Lights Changing" onclick="LightGo()" />
+        <input type="button" value="Stop Lights Changing"  onclick="LightStop()"/>
+        <input type="button" value="Stop Walker" onclick="stopWalk()" /><br /><br />
+
+        <img src="light-red.jpg" width="174" height="200" id="stoplight" /><br />
+
+    </div>
+
+    <div id = "walkerDiv">
+
+        <img id="walker" src="walk/walk1anim.png" width="180" height="293" /><a href="#">
+
+        <img src="speedLimitSmRedRoad.png" width="111" height="425" alt="Start/Stop" border="0" id="startWalk"
+             onclick="setTimer();"
+             onmouseover="MouseOver(pic);"
+             onmouseout="MouseOut(pic);"/></a>
+
+    </div>
+</form>
+
+</body>

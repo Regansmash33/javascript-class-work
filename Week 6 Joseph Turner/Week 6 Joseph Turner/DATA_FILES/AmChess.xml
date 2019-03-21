@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<choices xml:lang="EN">
+  <item><label>Alburt, Lev</label><value>LA1</value></item>
+  <item><label>Benjamin, Joel</label><value>JB1</value></item> 
+  <item><label>Bisguier, Arthur</label><value>AB1</value></item>
+  <item><label>Browne, Walter</label><value>WB1</value></item>
+  <item><label>Byrne, Robert</label><value>RB1</value></item>
+  <item><label>Christianson, Larry</label><value>LC1</value></item>
+  <item><label>Denker, Arnold</label><value>AD1</value></item>
+  <item><label>Dzindzichashvili, Roman</label><value>RD1</value></item>
+  <item><label>Firmian, Nick</label><value>NF1</value></item>
+  <item><label>Fischer, Robert</label><value>RF1</value></item>
+  <item><label>Grefe, John</label><value>JG1</value></item>
+  <item><label>Gulko, Boris</label><value>BG1</value></item>
+  <item><label>Ivanov, Alexander</label><value>AI1</value></item> 
+  <item><label>Kamsky, Gata</label><value>GK1</value></item>
+  <item><label>Kavalek, Lubomir</label><value>LK1</value></item>
+  <item><label>Rachels, Stuart</label><value>SR1</value></item>
+  <item><label>Reshevsky, Samuel</label><value>SR2</value></item>
+  <item><label>Seirawan, Yasser</label><value>YS1</value></item> 
+  <item><label>Shabalov, Alexander</label><value>AS1</value></item>
+  <item><label>Steiner, Herman</label><value>HS1</value></item>  
+  <item><label>Wilder, Michael</label><value>MW1</value></item>
+  <item><label>Wolff, Patrick</label><value>PW1</value></item>
+  <item><label>Yermolinsky, Alex</label><value>AY1</value></item>
+</choices>
+  

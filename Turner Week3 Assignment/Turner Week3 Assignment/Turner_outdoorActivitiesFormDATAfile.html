@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<!--suppress ALL -->
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>The Great Outdoors</title>
+
+    <link rel="stylesheet" href="Turner_outdoorDATAfile.css" />
+    <script src = "outdoorDataScript.js"></script>
+
+    <!--   Joseph Turner  -----    11/20/17   -->
+
+</head>
+
+<body>
+
+<form name="outdoorForm" id="outdoorForm" method="post" action="mailto:xyz@abc.com" onsubmit="validateForm()">
+
+    <header>
+        <img src="outdoorLogo1Sm.jpg" width="182" height="110" alt="Great Outdoors logo" id="logo" />
+        <h1 >The Great Outdoors!</h1><br style="clear:both;" />
+    </header>
+
+    <p>We would like to know what types of music you enjoy so we can provide that music via streaming and download. Please complete our survey.</p>
+
+    <fieldset><legend>Customer Information</legend>
+        <br />
+        <label for="firstname">First Name: <input name="firstname" id="firstname" type="text" class="reqd" /></label> &nbsp; &nbsp;
+        <label for="lastname">Last Name: <input name="lastname" id="lastname" type="text" size="25" class="reqd" /> &nbsp; &nbsp;</label>
+        <label for="email">E-mail Address: <input name="email" id="email" type="text" size="25" class="email" /></label>
+
+    </fieldset>
+
+    <fieldset><legend>Favorite Outdoor Activities</legend>
+        <br />
+        <div class="outdoorActivity">
+            Select the type(s) of outdoor activity that you prefer:
+            <br />
+            <input name="activitytype" type="checkbox" value="walk" id="walk" class="groupedElements" />Walk &nbsp;
+            <input name="activitytype" type="checkbox" value="run" id="run" class="groupedElements" />Run &nbsp;
+            <input name="activitytype" type="checkbox" value="bike" id="bike" class="groupedElements" />Bike &nbsp;
+            <input name="activitytype" type="checkbox" value="hike" id="hike" class="groupedElements" />Hike &nbsp;
+            <input name="activitytype" type="checkbox" value="canoe" id="canoe" class="groupedElements" />Canoe &nbsp;
+            <input name="activitytype" type="checkbox" value="camp" id="camp" class="groupedElements" />Camp &nbsp;
+            <input name="activitytype" type="checkbox" value="ski" id="ski" class="groupedElements" />Ski &nbsp;
+            <input name="activitytype" type="checkbox" value="hunt" id="hunt" class="groupedElements" />Hunt &nbsp;
+            <input name="activitytype" type="checkbox" value="noActivity" id="noActivity" class="groupedElements" />None of these
+        </div>
+        <hr />
+
+        <div class="purchases">
+            Where do you purchase most of your clothing for your outdoor activities:
+            <br />
+            <input name="purchases" type="radio" value="none" id="none" class="groupedElements" />Don't buy anything &nbsp;
+            <input name="purchases" type="radio" value="modells" id="modells" class="groupedElements" />Modells &nbsp;
+            <input name="purchases" type="radio" value="cabelas" id="cabelas" class="groupedElements" />Cabela's &nbsp;
+            <input name="purchases" type="radio" value="retail" id="retail" class="groupedElements" />Other retail store &nbsp;
+            <input name="purchases" type="radio" value="amazon" id="amazon" class="groupedElements" />Amazon &nbsp;
+            <input name="purchases" type="radio" value="online" id="online" class="groupedElements" />Other online store &nbsp;
+        </div>
+    </fieldset>
+
+    <fieldset><legend>Recreational areas</legend>
+        <br />
+        <div class="recArea">
+            Favorite recreational locations where you enjoy outdoor activities:
+            <select name="recArea" id="recArea" class="select" >
+                <option value="" label="&nbsp;" ></option>
+                <option value="FP" >Fairmount Park</option>
+                <option value="VFP" >Valley Forge Park</option>
+                <option value="SR" >Schuylkill River</option>
+                <option value="P" >Poconos</option>
+                <option value="JS" >Jersey Shore</option>
+                <option value="N" >None of these</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <br />What else can you tell us about your outdoor activities?
+    <br /><textarea name="other" rows="3" cols="120"></textarea>
+
+    <fieldset><legend>Special Code</legend>
+        <br />
+        <label for="prizeCode">Prize code: <input name="prizeCode" ID="prizeCode" type="text" class="specCode" /></label>
+    </fieldset>
+
+    <p><input type="submit" value="Submit" name="Submit"  />
+        <input type="reset" value="Clear" onclick="resetForm()"/><br />
+
+        <br /><span class="emphasize">Thank you for your completing our survey.</span></p>
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+/* Joseph Turner; 12/16/17 */
+
+/* Submit button: style provided  */
+
+#submitBtn, #resetBtn {
+	display: block;
+	float: left;
+	padding: 3px;
+	margin-right: 60px;
+	color: black;
+	background-color: #ccffff;
+}
+
+
+/* sortable text style provided */
+
+p.resortableText {font-size:10pt;}
+
+/* sortable tab style provided  */
+
+li.sortableTab   {font-size:10pt;}
+
+
+/* modal dialog box: style NOT provided */
+
+
+
+
+/* STRIPING: NOT provided */
+
+
+
+
+/* calendar: style provided */
+
+div#ui-datepicker-div {
+	margin-top: 10px;
+}
+
+
+
+/* general layout: styles provided  */
+
+#leftCol {
+
+  position: absolute;
+  top: 10px;
+  width:650px;
+  height:800px;
+}
+
+#rightCol {
+
+  position: absolute;
+  top:10px;
+  left:700px;
+  width:505px;
+  height:800px;
+  font-size:11pt;
+}
+
+#footer {
+
+  position: absolute;
+  top:850px;
+  width:1200px;
+  height: 100px;
+  text-align:center;
+}
+
+
+
+
+body {
+    padding: 20px;
+}
+
+#slides {
+    display: none;
+}
+
+#slides a {
+    color: #333;
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020;
+}
+
+div.slidesjs-container {
+    margin-bottom: 10px;
+}
+
+.slidesjs-pagination {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+
+.slidesjs-pagination li {
+    float: left;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(Slides-SlidesJS-3/examples/standard/img/pagination.png);
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+
+
+
+/* General styles provided */
+
+body { font-family: Verdana, Arial, sans-serif;
+       font-size: 10pt;
+	  }
+
+
+td, th {padding:5px;
+      line-height:100%;}
+td     {text-align:center; } 
+th     {text-align:left; } 
+table, td, th { border: 1px solid gray }
+td.alignLeft  {text-align:left; } 
+td.alignRight  {text-align:right; } 
+
+span.tableTitle {display:block;
+                 padding-bottom:5px; 
+				 width: 630px;}
+				 
+tbody tr {height:15px;}
+
+#formHeadline {text-align:center;}
